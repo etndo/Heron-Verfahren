@@ -1,14 +1,11 @@
 ﻿Start:
-Console.WriteLine();
-Console.WriteLine("--Neue Rechnung--");
-Console.WriteLine();
+Console.WriteLine("\n--Neue Rechnung--\n");
 
 double A;
-double a;
 InputA:
-Console.Write("FlächenInhalt: ");
+Console.Write("Wurzel aus n: ");
 try { A = Convert.ToDouble(Console.ReadLine()); } catch { Console.WriteLine("Ungültige Eingabe!"); goto InputA; }
-a = A;
+double a = A;
 
 double diff;
 InputDiff:
@@ -25,7 +22,7 @@ int attempt = 0;
 Console.WriteLine("Berechne Wurzel aus: " + a + "...");
 while(a-b > diff && attempt < attempts)
 {
-    a = a+b; a/= 2;
+    a += b; a/= 2;
     b = A/a;
     attempt++;
     Console.WriteLine("#" + attempt + ": " + "a: " + a + " b: " + b);
