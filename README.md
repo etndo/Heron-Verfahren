@@ -1,2 +1,3 @@
 C# Programm für die Berechnung von Wurzeln mit dem Heron-Verfahren
-![image](https://user-images.githubusercontent.com/113312608/221672118-7c4c6b2c-1dc8-4e55-9d39-9eb787f1d306.png)
+![image](https://user-images.githubusercontent.com/113312608/221707643-ec220c3b-d76e-42fb-98d3-1ba2d517186e.png)
+
