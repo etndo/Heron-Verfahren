@@ -19,11 +19,13 @@ try { attempts = Convert.ToInt32(Console.ReadLine()); } catch { Console.WriteLin
 
 double b = 1;
 int attempt = 0;
+if(b > a) { double c = a; a = b; b = c;}
 Console.WriteLine("Berechne Wurzel aus: " + a + "...");
 while(a-b > diff && attempt < attempts)
 {
     a += b; a/= 2;
     b = A/a;
+    if (b > a) { double c = a; a = b; b = c; }
     attempt++;
     Console.WriteLine("#" + attempt + ": " + "a: " + a + " b: " + b);
 }
