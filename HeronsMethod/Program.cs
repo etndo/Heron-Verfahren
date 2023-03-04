@@ -1,5 +1,4 @@
 ﻿using static HeronsMethod.Visualisation;
-
 internal class Program
 {
     private static void Main(string[] args)
@@ -13,7 +12,7 @@ internal class Program
     InputA:
         Console.Write("Wurzel aus:");
         try { A = Convert.ToDouble(Console.ReadLine()); } catch { Console.WriteLine("Ungültige Eingabe!"); goto InputA; }
-        if (A < 0) { Console.WriteLine("Ungültige Eingabe! (Muss größer >0 sein!)"); goto InputA; }
+        if (A < 0) { Console.WriteLine("Ungültige Eingabe! (Muss > 0 sein!)"); goto InputA; }
         double a = A;
 
         double lasta = 0, b = 1;

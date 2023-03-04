@@ -17,7 +17,7 @@
             bool drawB;
             for (int i = 0; i < 61; i++)
             {
-                if (i < aLocation + 0.5 && i > aLocation - 0.5) //Determines wether to draw graph for B
+                if (i < aLocation + 0.5 && i > aLocation - 0.5) //Determines wether to draw graph for A
                 {
                     drawA = true;
                 }
